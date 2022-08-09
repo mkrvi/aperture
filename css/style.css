@@ -8,8 +8,8 @@
     url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -86,17 +86,19 @@ header ul li:last-of-type a {
     background-image: url("../images/background.jpg");
     background-size: cover;
     height: 100vh;
-    padding: 466px 0 71px 0;
     box-sizing: border-box;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 71px;
 }
 
-.main_page div {
+.main_page_box {
     max-width: 580px;
-    margin: auto;
 }
 
-.main_page div h2 {
+.main_page_box h2 {
     font: 14px/20px 'poppinsregular';
     text-align: center;
     letter-spacing: 2px;
@@ -104,13 +106,13 @@ header ul li:last-of-type a {
     color: #C0C0C0;
 }
 
-.main_page div h1 {
+.main_page_box h1 {
     font: 54px/59px 'poppinsregular';
     text-align: center;
     color: #FFFFFF;
 }
 
-.main_page div p {
+.main_page_box p {
     margin-top: 18px;
     font: 14px/20px 'poppinsregular';
     text-align: center;
@@ -163,6 +165,141 @@ header ul li:last-of-type a {
     display: block;
     margin-right: 5px;
 }
+.mountain {
+    min-height: 600px;
+    background-image: url("../images/mountain.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 62px;
+    position: relative;
+}
+.mountain_box {
+    max-width: 298px;
+}
+.mountain_box h2 {
+    font: 14px/20px 'poppinsregular';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.mountain_box p {
+    font: 14px/20px 'poppinsregular';
+    color: #C0C0C0;
+}
+.mountain_fixed_information{
+    position: absolute;
+    bottom: 40px;
+    right: 45px;
+    list-style: none;
+}
+
+.mountain_fixed_information li {
+    font: 12px/12px 'poppinsregular';
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-left: 16px;
+}
+.mountain_fixed_information li:first-of-type:before {
+    content: "";
+    background-image: url("../images/timer.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+.mountain_fixed_information li:nth-child(2):before {
+    content: "";
+    background-image: url("../images/circle.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+.mountain_fixed_information li:nth-child(3):before {
+    content: "";
+    background-image: url("../images/iso.svg");
+    width: 32px;
+    height: 16px;
+    display: block;
+    margin-right: 7px;
+}
+.mountain_fixed_information li:last-of-type:before{
+    content: "";
+    background-image: url("../images/point.svg");
+    width: 10px;
+    height: 16px;
+    display: block;
+    margin-right: 5px;
+}
+.leaves{
+    min-height: 600px;
+    background-image: url("../images/leaves.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 87px;
+    position: relative;
+}
+.leaves_box {
+    max-width: 273px;
+}
+.leaves_box h2{
+    font: 14px/20px 'poppinsregular';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.leaves_box p{
+    font: 14px/20px 'poppinsregular';
+    color: #C0C0C0;
+}
+.leaves_fixed_information{
+    position: absolute;
+    bottom: 40px;
+    right: 45px;
+    list-style: none;
+}
+.leaves_fixed_information li{
+    font: 12px/12px 'poppinsregular';
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-left: 16px;
+}
+.leaves_fixed_information li:first-of-type:before {
+    content: "";
+    background-image: url("../images/timer.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+.leaves_fixed_information li:nth-child(2):before {
+    content: "";
+    background-image: url("../images/circle.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+.leaves_fixed_information li:nth-child(3):before {
+    content: "";
+    background-image: url("../images/iso.svg");
+    width: 32px;
+    height: 16px;
+    display: block;
+    margin-right: 7px;
+}
+.leaves_fixed_information li:last-of-type:before{
+    content: "";
+    background-image: url("../images/point.svg");
+    width: 10px;
+    height: 16px;
+    display: block;
+    margin-right: 5px;
+}
 .clients{
     padding-top: 113px;
     padding-bottom: 140px;
@@ -181,10 +318,117 @@ header ul li:last-of-type a {
     margin-bottom: 82px;
 
 }
-.clients div{
+.clients_logo{
     display: flex;
     margin: auto;
     max-width: 1200px;
     justify-content: space-between;
     align-items: center;
+}
+.starfall{
+    min-height: 600px;
+    background-image: url("../images/starfall.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 106px;
+    position: relative;
+}
+.starfall_box{
+    max-width: 254px;
+}
+.starfall_box h2{
+    font: 14px/20px 'poppinsregular';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.starfall_box p{
+    font: 14px/20px 'poppinsregular';
+    color: #C0C0C0;
+}
+.starfall_fixed_information{
+    position: absolute;
+    bottom: 40px;
+    right: 45px;
+    list-style: none;
+}
+.starfall_fixed_information li {
+    font: 12px/12px 'poppinsregular';
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-left: 16px;
+}
+.starfall_fixed_information li:first-of-type:before {
+    content: "";
+    background-image: url("../images/timer.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+.starfall_fixed_information li:nth-child(2):before {
+    content: "";
+    background-image: url("../images/circle.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+.starfall_fixed_information li:nth-child(3):before {
+    content: "";
+    background-image: url("../images/iso.svg");
+    width: 32px;
+    height: 16px;
+    display: block;
+    margin-right: 7px;
+}
+.starfall_fixed_information li:last-of-type:before{
+    content: "";
+    background-image: url("../images/point.svg");
+    width: 10px;
+    height: 16px;
+    display: block;
+    margin-right: 5px;
+}
+.contact_us{
+    padding-top: 113px;
+    padding-bottom: 108px;
+    background-color: #000000;
+}
+
+.contact_us_box{
+    max-width: 571px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact_us h3{
+    font: 40px/42px 'poppinsregular';
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.contact_us p{
+    font: 24px/30px 'poppinsregular';
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+.contact_us a {
+    background-color: #FFFFFF;
+    font: 16px/20px 'poppinsregular';
+    text-decoration: none;
+    color: #000000;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 14px;
+    padding-right: 10px;
+}
+.contact_us a:before{
+    content: "";
+    height: 32px;
+    width: 32px;
+    border-radius: 14px;
+    background-color: #000000;
+    margin: 5px 6px 5px 4px;
 }
