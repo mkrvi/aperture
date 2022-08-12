@@ -165,6 +165,68 @@ header ul li:last-of-type a {
     display: block;
     margin-right: 5px;
 }
+.what_we_do{
+    padding-top: 112px;
+    padding-bottom: 100px;
+    background-color: #000000;
+}
+.what_we_do_container{
+    max-width: 1168px;
+    margin: auto;
+}
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.what_we_do_container h2 {
+    font: 40px/42px 'poppinsregular';
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.what_we_do_container p {
+    font: 23px/30px 'poppinsregular';
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 16px;
+}
+.what_we_do .what_we_do_item{
+    max-width: 576px;
+    max-height: 600px;
+    position: relative;
+    margin-bottom: 16px;
+}
+.what_we_do img{
+    display: block;
+    width: 100%;
+}
+.description{
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    bottom: 0;
+    color: white;
+
+}
+.description h4{
+    font: 14px/20px 'poppinsregular';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+
+}
+.description p{
+    font: 14px/20px 'poppinsregular';
+    color: #C0C0C0;
+    text-align: left;
+
+}
+
 .mountain {
     min-height: 600px;
     background-image: url("../images/mountain.jpg");
@@ -431,4 +493,120 @@ header ul li:last-of-type a {
     border-radius: 14px;
     background-color: #000000;
     margin: 5px 6px 5px 4px;
+}
+footer{
+    padding-top: 100px;
+    padding-bottom: 104px;
+    background-color: #000000;
+}
+.main_footer_box{
+    max-width: 1168px;
+    margin: auto;
+}
+.upper_footer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #FFFFFF;
+}
+.logo_box{
+    margin-bottom: 36px;
+}
+.list_box{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 36px;
+}
+.list_box ul:first-of-type{
+    margin-right: 55px;
+}
+.list_box ul:last-of-type{
+    margin-right: 45px;
+}
+
+.logo_box p{
+    font: 13px/20px 'poppinsregular';
+    color: #C0C0C0;
+}
+
+.list li {
+    font: 14px/20px 'poppinsregular';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    font: 13px/20px 'poppinsregular';
+    color: #FFFFFF;
+    text-transform: none;
+
+}
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.subscribe h4{
+    font: 14px/20px 'poppinsregular';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.subscribe p{
+    font: 13px/20px 'poppinsregular';
+    color: #C0C0C0;
+    margin-bottom: 36px
+}
+.subscribe form{
+    background-color: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    height: 52px;
+    width: 458px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.subscribe button{
+    background-color: #000000;
+    border-radius: 11px;
+    width: 63px;
+    height: 30px;
+}
+.subscribe input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.socials_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 56px;
+}
+.socials_box p{
+    font: 14px/20px 'poppinsregular';
+    color: #C0C0C0;
+}
+.socials{
+    display: flex;
+    list-style: none;
+}
+.socials img{
+    height: 24px;
+}
+.socials li:nth-child(2){
+    margin-left: 20px;
+    margin-right: 26px;
+}
+.socials li:last-of-type{
+    margin-right: 6px;
 }
