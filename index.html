@@ -6,6 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aperture</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -16,20 +20,25 @@
             <img src="images/logo.svg" alt="logo">
         </a>
         <nav>
-            <ul>
-                <li>
+            <div class="menu-btn">
+                <div class="line line__1"></div>
+                <div class="line line__2"></div>
+                <div class="line line__3"></div>
+            </div>
+            <ul class="nav-links">
+                <li class="link">
                     <a href="#">Business areas</a>
                 </li>
-                <li>
+                <li class="link">
                     <a href="#">Featured images</a>
                 </li>
-                <li>
+                <li class="link">
                     <a href="#">Gear cage</a>
                 </li>
-                <li>
+                <li class="link">
                     <a href="#">Contact</a>
                 </li>
-                <li>
+                <li class="link">
                     <a href="#">Get template</a>
                 </li>
             </ul>
@@ -53,6 +62,45 @@
     <div class="what_we_do_container">
         <h2>What we do.</h2>
         <p>The areas that we're specialized in.</p>
+
+        <div id="accordion">
+            <h3>Section 1</h3>
+            <div class="d_flex">
+                <div class="what_we_do_item">
+                    <div class="description">
+                        <h4>Product Photography</h4>
+                        <p>Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                    </div>
+                    <img src="images/product.jpg" alt="img">
+                </div>
+                <div class="what_we_do_item">
+                    <div class="description">
+                        <h4>Architecture Photography</h4>
+                        <p>Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet sapien, sit amet rhoncus leo imperdiet nec.</p>
+                    </div>
+                    <img src="images/architecture.jpg" alt="img">
+                </div>
+            </div>
+            <h3>Section 2</h3>
+            <div class="d_flex">
+                <div class="what_we_do_item">
+                    <div class="description">
+                        <h4>Drone Photography</h4>
+                        <p>Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+                    </div>
+                    <img src="images/drone.jpg" alt="img">
+                </div>
+                <div class="what_we_do_item">
+                    <div class="description">
+                        <h4>Wildlife Photography</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+                    </div>
+                    <img src="images/wildlife.jpg" alt="img">
+                </div>
+            </div>
+
+        </div>
+
         <div class="d_flex">
             <div class="what_we_do_item">
                 <div class="description">
@@ -114,12 +162,21 @@
 <section class="clients">
     <h3>Past clients</h3>
     <p>Trusted by your favourite companies</p>
-    <div class="clients_logo">
+    <div class="clients_logo owl-carousel">
         <a href="#">
             <img src="images/hill_players_logo.svg" alt="logo">
         </a>
         <a href="#">
             <img src="images/riksgransen_logo.svg" alt="logo">
+        </a>
+        <a href="#">
+            <img src="images/studio_kai_logo.svg" alt="logo">
+        </a>
+        <a href="#">
+            <img src="images/chill_industries_logo.svg" alt="logo">
+        </a>
+        <a href="#">
+            <img src="images/stockholm_logo.svg" alt="logo">
         </a>
         <a href="#">
             <img src="images/studio_kai_logo.svg" alt="logo">
@@ -232,5 +289,10 @@
             </div>
     </div>
 </footer>
+<script src="https://kit.fontawesome.com/cbcd7cdcd3.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
