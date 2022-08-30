@@ -661,14 +661,17 @@ footer{
 
 
 
-
-
+html{
+    touch-action: none;
+}
 
 
 body {
     width: 100%;
     overflow-x: hidden;
-    z-index: 1; }
+    z-index: 1;
+    touch-action: none;
+}
 
 nav {
     --transition-time: 500ms;
