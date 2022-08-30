@@ -386,8 +386,8 @@
         backdrop-filter: blur(20px);
         top: 0;
         width: 400px;
-        position: fixed;
-        min-height: 200px;
+        position: absolute;
+        overflow: hidden;
     }
 
     nav .nav-links {
@@ -407,7 +407,6 @@
     nav.nav-open .menu-btn {
         right: 10%;
         top: 1.3%;
-
     }
 
     header ul li {
