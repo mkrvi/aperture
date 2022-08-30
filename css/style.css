@@ -661,18 +661,12 @@ footer{
 
 
 
-html{
-    overscroll-behavior: none;
-    touch-action: none;
-}
 
 
 body {
     width: 100%;
     overflow-x: hidden;
     z-index: 1;
-    touch-action: none;
-    overscroll-behavior: none;
 }
 
 nav {
