@@ -662,6 +662,7 @@ footer{
 
 
 html{
+    overscroll-behavior: none;
     touch-action: none;
 }
 
